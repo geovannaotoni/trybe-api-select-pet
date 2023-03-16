@@ -18,3 +18,11 @@ randomCatBtn.addEventListener('click', () => {
       image.src = data.file;
     });
 });
+
+surpriseBtn.addEventListener('click', () => {
+  Promise.any([fetch('https://dog.ceo/api/breeds/image/random'), fetch('https://aws.random.cat/meow')])
+    .then(((response) => response.json()))
+    .then((data) => {
+      image.src = data.message || data.file;
+    });
+});

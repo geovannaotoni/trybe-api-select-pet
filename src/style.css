@@ -3,7 +3,7 @@
   border: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 header {
@@ -24,6 +24,7 @@ button {
   border-radius: 10px;
   color: white;
   background-color: rgb(115, 30, 185);
+  transition: background-color 0.5s;
 }
 
 button:hover {
@@ -42,6 +43,9 @@ img {
   margin: 25px 0;
   height: 700px;
   border: 5px solid rgb(115, 30, 185);
+  /* box-shadow: 5px 5px 17px 7px #00000071; */
+  box-shadow: 3px 3px 12px #333;
+  border-radius: 5px;
 }
 
 footer {
