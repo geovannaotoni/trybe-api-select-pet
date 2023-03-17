@@ -1,5 +1,6 @@
 # Selecione um Pet
 Aplicação que exibe fotos aleatórias de cães e gatos. A pessoa usuária pode escolher qual tipo de animal quer ver a imagem ou pode escolher a opção “Surprise me” e deixar a sorte definir qual pet será exibido.
+<img src="./selectpet.gif">
 
 ## :computer: Visualize este projeto:
 Acesse a página aqui:
